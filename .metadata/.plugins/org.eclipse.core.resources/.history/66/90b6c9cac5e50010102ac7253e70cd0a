@@ -1,0 +1,28 @@
+
+public class LOCCounter {
+
+	/**
+	 * @param args
+	 */
+	static int totalLines;
+	
+	public static void main(String[] args) {
+		if (args.length == 0)
+			System.out.println("USAGE: ");
+
+	}
+
+	private void CountLineNumber(){
+		
+	}
+	
+	private String[] ReadFile(){
+		return null;
+		
+	}
+	
+	private void PrintFile(){
+		
+	}
+
+}

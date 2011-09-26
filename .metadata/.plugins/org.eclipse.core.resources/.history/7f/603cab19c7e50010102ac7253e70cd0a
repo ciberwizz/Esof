@@ -1,0 +1,50 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+
+public class LOCCounter {
+
+	/**
+	 * @param args
+	 */
+	static int totalLines;
+	static boolean showCode;
+	
+	public static void main(String[] args) {
+		if (args.length == 0)
+			System.out.println("USAGE: ");
+		if (args[0].equals("-p"))
+			showCode = true;
+		int i;
+		if (showCode){
+			i = 1;
+		}
+		else i=0;
+		for (; i < args.length; i++) {
+			ReadFile(args[i]);
+		}
+	}
+
+	
+
+	private void CountLineNumber(){
+		
+	}
+	
+	private static String[] ReadFile(String file){
+		try {
+			BufferedReader br = new BufferedReader(new FileReader(file));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+		
+	}
+	
+	private void PrintFile(){
+		
+	}
+
+}

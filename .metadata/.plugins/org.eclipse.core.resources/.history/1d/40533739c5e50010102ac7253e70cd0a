@@ -1,0 +1,23 @@
+
+public class LOCCounter {
+
+	/**
+	 * @param args
+	 */
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+	private void CountLineNumber(){
+		
+	}
+	
+	private String[] ReadFile(){
+		return null;
+		
+	}
+
+}

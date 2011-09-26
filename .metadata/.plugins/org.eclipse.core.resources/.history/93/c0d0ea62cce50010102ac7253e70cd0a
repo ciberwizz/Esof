@@ -1,0 +1,90 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+
+public class LOCCounter {
+
+	/**
+	 * @param args
+	 */
+	static String[] finalFile;
+	static int totalLines;
+	static boolean showCode;
+	static String nameOfFile;
+	
+	public static void main(String[] args) {
+		if (args.length == 0)
+			System.out.println("USAGE: ");
+		if (args[0].equals("-p"))
+			showCode = true;
+		int i;
+		if (showCode){
+			i = 1;
+		}
+		else i=0;
+		totalLines = 0;
+		for (; i < args.length; i++) {
+			LOCCounter loc = new LOCCounter();
+			loc.ReadFile(args[i]);
+		}
+		System.out.println("Total: " + totalLines);
+	}
+
+	
+
+	private static void CountLineNumber(BufferedReader br){
+		
+		int aspas =0, coment=0;
+		String line = null; 
+		int indOpen,indClose,indAspas;
+		int i;
+		do{
+			try {
+				line = br.readLine();
+				
+				indOpen = line.indexOf("/*");
+				indClose = line.indexOf("*/");
+				indAspas = line.indexOf('"');
+				
+				/*if((indAspas < indOpen) || (aspas > 0)) {
+					
+					finalFile[finalFile.length] = new String();
+					
+					finalFile[finalFile.length]
+					
+					
+				}*/
+				finalFile[finalFile.length] = new String(line);
+				totalLines++;
+				
+			} catch (IOException e) {
+				break;
+			}
+			
+		}
+		while(true);
+		
+		
+	}
+	
+	private static void ReadFile(String file){
+		try {
+			BufferedReader br = new BufferedReader(new FileReader(file));
+			CountLineNumber(br);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	private void PrintFile(){
+		System.out.println(nameOfFile + ": " + finalFile.length + " LOC");
+		if (showCode)
+			System.out.println(finalFile);
+		
+	}
+
+}

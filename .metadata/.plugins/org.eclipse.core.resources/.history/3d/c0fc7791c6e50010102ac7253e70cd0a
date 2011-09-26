@@ -1,0 +1,42 @@
+import java.io.BufferedReader;
+
+
+public class LOCCounter {
+
+	/**
+	 * @param args
+	 */
+	static int totalLines;
+	static boolean showCode;
+	
+	public static void main(String[] args) {
+		if (args.length == 0)
+			System.out.println("USAGE: ");
+		if (args[0].equals("-p"))
+			showCode = true;
+		int i;
+		if (showCode){
+			i = 1;
+		}
+		else i=0;
+		for (; i < args.length; i++) {
+			ReadFile(args[i]);
+		}
+	}
+
+	
+
+	private void CountLineNumber(){
+		
+	}
+	
+	private static String[] ReadFile(String args){
+		BufferedReader br = new BufferedReader(new FileReader(f));
+		
+	}
+	
+	private void PrintFile(){
+		
+	}
+
+}
