@@ -1,3 +1,4 @@
+import numerics.LinearRegression;
 import Auxiliar.LinkedList;
 
 

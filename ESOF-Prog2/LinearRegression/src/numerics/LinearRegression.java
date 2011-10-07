@@ -1,5 +1,5 @@
+package numerics;
 import Auxiliar.LinkedList;
-import numerics.MeanCalc;
 
 
 public class LinearRegression {
@@ -72,6 +72,15 @@ public class LinearRegression {
 		return (result_int_xy -  result_int_x * result_int_y) / 
 						Math.sqrt(result_int_1 * result_int_2);
 	}
+	
+	public double RoundValue(double value, int nCasas){
+		int valueOfMul = 10;
+		for (int i = 1; i < nCasas; i++) {
+			valueOfMul *= 10;
+		}
+		return (double)Math.round(value * valueOfMul) / valueOfMul;
+	}
+	
 	
 	
 }
