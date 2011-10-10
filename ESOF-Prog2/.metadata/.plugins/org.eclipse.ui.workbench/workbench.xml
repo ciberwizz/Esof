@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="34" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="65" y="98">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.ve.internal.java.codegen.editorpart.XMLViewPart"/>
+</fastViewData>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1317369089646" focus="true" label="Workspace - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestTStudentDistribution.java" partName="TestTStudentDistribution.java" path="C:/Users/G50/Desktop/FEUP/MIEIC 1112/1º Semestre/ESOF/ESOF-Prog1 - 2011/Esof/ESOF-Prog2/LinearRegression/src/statistics/TestTStudentDistribution.java" title="TestTStudentDistribution.java" tooltip="LinearRegression/src/statistics/TestTStudentDistribution.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LinearRegression/src/statistics/TestTStudentDistribution.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2699" selectionTopPixel="1754"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TStudentDistribution.java" partName="TStudentDistribution.java" path="C:/Users/G50/Desktop/FEUP/MIEIC 1112/1º Semestre/ESOF/ESOF-Prog1 - 2011/Esof/ESOF-Prog2/LinearRegression/src/statistics/TStudentDistribution.java" title="TStudentDistribution.java" tooltip="LinearRegression/src/statistics/TStudentDistribution.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LinearRegression/src/statistics/TStudentDistribution.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="49" selectionOffset="898" selectionTopPixel="122"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinearRegression.java" partName="LinearRegression.java" path="C:/Users/G50/Desktop/FEUP/MIEIC 1112/1º Semestre/ESOF/ESOF-Prog1 - 2011/Esof/ESOF-Prog2/LinearRegression/src/numerics/LinearRegression.java" title="LinearRegression.java" tooltip="LinearRegression/src/numerics/LinearRegression.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LinearRegression/src/numerics/LinearRegression.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2256" selectionTopPixel="717"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AppMain.java" partName="AppMain.java" path="C:/Users/G50/Desktop/FEUP/MIEIC 1112/1º Semestre/ESOF/ESOF-Prog1 - 2011/Esof/ESOF-Prog2/LinearRegression/src/AppMain.java" title="AppMain.java" tooltip="LinearRegression/src/AppMain.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LinearRegression/src/AppMain.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="218" selectionTopPixel="17"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Function.java" partName="Function.java" path="C:/Users/G50/Desktop/FEUP/MIEIC 1112/1º Semestre/ESOF/ESOF-Prog1 - 2011/Esof/ESOF-Prog2/LinearRegression/src/numerics/Function.java" title="Function.java" tooltip="LinearRegression/src/numerics/Function.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LinearRegression/src/numerics/Function.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="201" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GammaFunction.java" partName="GammaFunction.java" path="C:/Users/G50/Desktop/FEUP/MIEIC 1112/1º Semestre/ESOF/ESOF-Prog1 - 2011/Esof/ESOF-Prog2/LinearRegression/src/numerics/GammaFunction.java" title="GammaFunction.java" tooltip="LinearRegression/src/numerics/GammaFunction.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LinearRegression/src/numerics/GammaFunction.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="19" selectionOffset="446" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpsonMethod.java" partName="SimpsonMethod.java" path="C:/Users/G50/Desktop/FEUP/MIEIC 1112/1º Semestre/ESOF/ESOF-Prog1 - 2011/Esof/ESOF-Prog2/LinearRegression/src/numerics/SimpsonMethod.java" title="SimpsonMethod.java" tooltip="LinearRegression/src/numerics/SimpsonMethod.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LinearRegression/src/numerics/SimpsonMethod.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3255" selectionTopPixel="25"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewtonRapsonMethod.java" partName="NewtonRapsonMethod.java" path="C:/Users/G50/Desktop/FEUP/MIEIC 1112/1º Semestre/ESOF/ESOF-Prog1 - 2011/Esof/ESOF-Prog2/LinearRegression/src/numerics/NewtonRapsonMethod.java" title="NewtonRapsonMethod.java" tooltip="LinearRegression/src/numerics/NewtonRapsonMethod.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LinearRegression/src/numerics/NewtonRapsonMethod.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="280" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Interface.java" partName="Interface.java" path="C:/Users/G50/Desktop/FEUP/MIEIC 1112/1º Semestre/ESOF/ESOF-Prog1 - 2011/Esof/ESOF-Prog2/LinearRegression/src/Auxiliar/Interface.java" title="Interface.java" tooltip="LinearRegression/src/Auxiliar/Interface.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LinearRegression/src/Auxiliar/Interface.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MeanCalc.java" partName="MeanCalc.java" path="C:/Users/G50/Desktop/FEUP/MIEIC 1112/1º Semestre/ESOF/ESOF-Prog1 - 2011/Esof/ESOF-Prog2/LinearRegression/src/numerics/MeanCalc.java" title="MeanCalc.java" tooltip="LinearRegression/src/numerics/MeanCalc.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LinearRegression/src/numerics/MeanCalc.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="756" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="de.fu_berlin.inf.dpp.ui.views.SarosView" partName="Saros">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
+<viewState failuresOnly="false" layout="1" orientation="2" ratio="500" scroll="false" time="true"/>
+</view>
+<view id="de.fu_berlin.inf.dpp.whiteboard.view.SarosWhiteboardView" partName="Saros Whiteboard">
+<viewState/>
+</view>
+<view id="org.eclipse.ve.internal.java.codegen.editorpart.XMLViewPart" partName="VE Model: XMI View"/>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors (1 item)"/>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
+<viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
+<sorter groupBy="CATEGORY_QUERY">
+<sorter>
+<sort0 sortDirection="1" sortKey="PRIORITY"/>
+<sort1 sortDirection="1" sortKey="RANK"/>
+<sort2 sortDirection="1" sortKey="DATE_CREATED"/>
+<sort3 sortDirection="1" sortKey="NONE"/>
+<sort4 sortDirection="1" sortKey="NONE"/>
+<sort5 sortDirection="1" sortKey="NONE"/>
+<sort6 sortDirection="1" sortKey="NONE"/>
+<sort7 sortDirection="1" sortKey="NONE"/>
+</sorter>
+</sorter>
+<filteredTreeFindHistory/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="adt.actionSet.wizards"/>
+<alwaysOnActionSet id="adt.actionSet.refactorings"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.adt.project.NewProjectWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.editors.wizards.NewXmlFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<new_wizard_action id="org.eclipse.ve.internal.java.codegen.wizards.NewVisualClassCreationWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.android.ide.eclipse.ddms.Perspective"/>
+<perspective_action id="com.android.ide.eclipse.hierarchyviewer.PixelPerfectPespective"/>
+<perspective_action id="com.android.ide.eclipse.hierarchyviewer.TreeViewPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.jdt.junit.ResultView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="de.fu_berlin.inf.dpp.ui.views.SarosView"/>
+<view id="de.fu_berlin.inf.dpp.whiteboard.view.SarosWhiteboardView"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<fastViews>
+<view id="org.eclipse.ve.internal.java.codegen.editorpart.XMLViewPart" ratio="0.95"/>
+</fastViews>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.junit.ResultView" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1879b" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.gef.ui.palette_view" ratio="0.14979029" ratioLeft="250" ratioRight="1419" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7496136" ratioLeft="485" ratioRight="162" relationship="4" relative="org.eclipse.gef.ui.palette_view">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@19c2931" ratio="0.5" ratioLeft="375" ratioRight="375" relationship="2" relative="bottom">
+<folder activePageID="de.fu_berlin.inf.dpp.ui.views.SarosView" appearance="2" expanded="2">
+<page content="de.fu_berlin.inf.dpp.ui.views.SarosView" label="Saros"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@33549b" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.gef.ui.palette_view">
+<folder activePageID="org.eclipse.mylyn.tasks.ui.views.tasks" appearance="2" expanded="2">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@158aac4" ratio="0.5" ratioLeft="94" ratioRight="94" relationship="2" relative="org.eclipse.ui.internal.ViewStack@33549b">
+<folder activePageID="de.fu_berlin.inf.dpp.whiteboard.view.SarosWhiteboardView" appearance="2" expanded="2">
+<page content="de.fu_berlin.inf.dpp.whiteboard.view.SarosWhiteboardView" label="Saros Whiteboard"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.49896908" ratioLeft="242" ratioRight="243" relationship="4" relative="org.eclipse.ui.internal.ViewStack@33549b">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.15836298" ratioLeft="89" ratioRight="473" relationship="2" relative="org.eclipse.gef.ui.palette_view"/>
+<info part="org.eclipse.ve.internal.java.codegen.editorpart.BeansList" ratio="0.4992272" ratioLeft="323" ratioRight="324" relationship="4" relative="left"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LinearRegression/src/statistics/TestTStudentDistribution.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LinearRegression/src/numerics/LinearRegression.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LinearRegression/src/Auxiliar/Interface.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LinearRegression/src/numerics/MeanCalc.java"/>
+</editors>
+<item historyLabel="LinearRegression.java" index="1">
+<position info="not_deleted" x="65" y="16"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3359" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3363" y="16"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3448" y="6"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3499" y="6"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3542" y="0"/>
+</item>
+<item historyLabel="LinearRegression.java" index="1">
+<position info="not_deleted" x="1162" y="6"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3542" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3548" y="6"/>
+</item>
+<item historyLabel="LinearRegression.java" index="1">
+<position info="not_deleted" x="1162" y="6"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3548" y="6"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3081" y="0"/>
+</item>
+<item historyLabel="LinearRegression.java" index="1">
+<position info="not_deleted" x="1162" y="6"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3081" y="0"/>
+</item>
+<item historyLabel="LinearRegression.java" index="1">
+<position info="not_deleted" x="1284" y="5"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3081" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3073" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3860" y="16"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="4066" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3851" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3930" y="6"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3983" y="6"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3999" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="4049" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="4101" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="4403" y="16"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="4394" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="4528" y="6"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position/>
+</item>
+<item historyLabel="Interface.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3942" y="0"/>
+</item>
+<item historyLabel="LinearRegression.java" index="1">
+<position info="not_deleted" x="1284" y="5"/>
+</item>
+<item historyLabel="MeanCalc.java" index="3">
+<position info="not_deleted" x="756" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="3942" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="4457" y="0"/>
+</item>
+<item historyLabel="LinearRegression.java" index="1">
+<position info="not_deleted" x="1284" y="5"/>
+</item>
+<item historyLabel="LinearRegression.java" index="1">
+<position info="not_deleted" x="2366" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="4486" y="0"/>
+</item>
+<item historyLabel="LinearRegression.java" index="1">
+<position info="not_deleted" x="2366" y="0"/>
+</item>
+<item historyLabel="LinearRegression.java" index="1">
+<position info="not_deleted" x="2365" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="4486" y="0"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="4484" y="1"/>
+</item>
+<item historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="4486" y="0"/>
+</item>
+<item historyLabel="LinearRegression.java" index="1">
+<position info="not_deleted" x="2256" y="0"/>
+</item>
+<item active="true" historyLabel="TestTStudentDistribution.java" index="0">
+<position info="not_deleted" x="4486" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@19c2931"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@158aac4"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@33549b"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MeanCalc.java" tooltip="LinearRegression/src/numerics/MeanCalc.java">
+<persistable path="/LinearRegression/src/numerics/MeanCalc.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Interface.java" tooltip="LinearRegression/src/Auxiliar/Interface.java">
+<persistable path="/LinearRegression/src/Auxiliar/Interface.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewtonRapsonMethod.java" tooltip="LinearRegression/src/numerics/NewtonRapsonMethod.java">
+<persistable path="/LinearRegression/src/numerics/NewtonRapsonMethod.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpsonMethod.java" tooltip="LinearRegression/src/numerics/SimpsonMethod.java">
+<persistable path="/LinearRegression/src/numerics/SimpsonMethod.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GammaFunction.java" tooltip="LinearRegression/src/numerics/GammaFunction.java">
+<persistable path="/LinearRegression/src/numerics/GammaFunction.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Function.java" tooltip="LinearRegression/src/numerics/Function.java">
+<persistable path="/LinearRegression/src/numerics/Function.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AppMain.java" tooltip="LinearRegression/src/AppMain.java">
+<persistable path="/LinearRegression/src/AppMain.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Node.java" tooltip="LinearRegression/src/Auxiliar/Node.java">
+<persistable path="/LinearRegression/src/Auxiliar/Node.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinkedList.java" tooltip="LinearRegression/src/Auxiliar/LinkedList.java">
+<persistable path="/LinearRegression/src/Auxiliar/LinkedList.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinearRegression.java" tooltip="LinearRegression/src/LinearRegression.java">
+<persistable path="/LinearRegression/src/LinearRegression.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestCase.java" tooltip="LinearRegression/src/TestCase.java">
+<persistable path="/LinearRegression/src/TestCase.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TStudentDistribution.java" tooltip="LinearRegression/src/statistics/TStudentDistribution.java">
+<persistable path="/LinearRegression/src/statistics/TStudentDistribution.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestCase.java" tooltip="LinearRegression/src/junit/framework/TestCase.java">
+<persistable path="/LinearRegression/src/junit/framework/TestCase.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestTStudentDistribution.java" tooltip="LinearRegression/src/TestTStudentDistribution.java">
+<persistable path="/LinearRegression/src/TestTStudentDistribution.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpsonMethod.java" tooltip="LinearRegression/src/SimpsonMethod.java">
+<persistable path="/LinearRegression/src/SimpsonMethod.java"/>
+</file>
+</mruList>
+</workbench>

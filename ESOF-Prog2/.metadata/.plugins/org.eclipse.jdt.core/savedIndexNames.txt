@@ -1,0 +1,14 @@
+INDEX VERSION 1.126+C:\Users\G50\Desktop\FEUP\MIEIC 1112\1º Semestre\ESOF\ESOF-Prog1 - 2011\Esof\ESOF-Prog2\.metadata\.plugins\org.eclipse.jdt.core
+4284093014.index
+1891061832.index
+989118166.index
+3140045379.index
+529437705.index
+3597016957.index
+3291799386.index
+1962638457.index
+4050959524.index
+848959954.index
+1719780241.index
+2479909925.index
+2375370348.index

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="numerics.GammaFunction"/>
+<fullyQualifiedTypeName name="numerics.SimpsonMethod"/>
+<fullyQualifiedTypeName name="numerics.Function"/>
+<fullyQualifiedTypeName name="Auxiliar.Node"/>
+<fullyQualifiedTypeName name="Auxiliar.LinkedList"/>
+<fullyQualifiedTypeName name="numerics.MeanCalc"/>
+<fullyQualifiedTypeName name="Auxiliar.Interface"/>
+<fullyQualifiedTypeName name="java.awt.LinearGradientPaint"/>
+<fullyQualifiedTypeName name="numerics.LinearRegression"/>
+</qualifiedTypeNameHistroy>

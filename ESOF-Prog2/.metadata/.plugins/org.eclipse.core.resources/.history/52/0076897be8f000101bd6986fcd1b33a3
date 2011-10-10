@@ -1,0 +1,82 @@
+package numerics;
+import Auxiliar.LinkedList;
+
+
+public class LinearRegression {
+	
+	LinkedList<Double> number_list;
+	
+	public LinearRegression(LinkedList<Double> ListOfNumbers){
+		setNewList(ListOfNumbers);
+	}
+	
+	private void setNewList(LinkedList<Double> listOfNumbers) {
+		number_list = listOfNumbers;
+	}
+
+	public Double CalcB0(){
+		MeanCalc media = new MeanCalc(number_list);
+		Double[] medias = media.calculate();
+		
+		return medias[1] - CalcB1()*medias[0];
+	}
+	
+	public Double CalcB1(){
+		MeanCalc media = new MeanCalc(number_list);
+		Double[] medias = media.calculate();
+		
+		Double result_int_1 = 0.0, result_int_2 = 0.0;
+		number_list.reset(); // Reset internal pointer for security
+		for(int i = 0; i < number_list.size(); i++){
+			Double value1 = number_list.getNodeValue1();
+			Double value2 = number_list.getNodeValue2();
+			result_int_1 += value1 * value2;
+			result_int_2 += value1 * value1;
+			number_list.nextNode();
+		}
+		Double result = result_int_1 - (number_list.size()*medias[0]*medias[1]);
+		result /= (result_int_2 - number_list.size()*medias[0]*medias[0]);
+		
+		return result;
+	}
+	
+	public double CalcYk(Double x){
+		double B0 = CalcB0();
+		double B1 = CalcB1();
+		
+		return (B0 + B1*x);
+		
+	}
+	
+	public double CalcR(){
+		Double result_int_xy = 0.0, result_int_x = 0.0, result_int_y = 0.0;
+		Double result_int_x2 = 0.0, result_int_y2 = 0.0;
+		Double result_int_1 = 0.0, result_int_2 = 0.0;
+		
+		number_list.reset();
+		for(int i = 0; i < number_list.size(); i++){
+			Double value1 = number_list.getNodeValue1();
+			Double value2 = number_list.getNodeValue2();
+			result_int_xy += value1 * value2;
+			result_int_x += value1;
+			result_int_y += value2;
+			result_int_x2 += value1*value1;
+			result_int_y2 += value2*value2;
+			number_list.nextNode();
+		}
+		result_int_xy *= number_list.size();
+		
+		result_int_1 = number_list.size()*result_int_x2 - result_int_x*result_int_x;
+		result_int_2 = number_list.size()*result_int_y2 - result_int_y*result_int_y;
+		
+		return (result_int_xy -  result_int_x * result_int_y) / 
+						Math.sqrt(result_int_1 * result_int_2);
+	}
+	
+	public double RoundValue(double value, int nCasas){
+		return (double)Math.round(r.CalcB0() * 100000) / 100000
+	}
+	}
+	
+	
+}

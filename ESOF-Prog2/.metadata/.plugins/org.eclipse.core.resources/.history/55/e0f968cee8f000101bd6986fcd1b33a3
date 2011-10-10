@@ -1,0 +1,141 @@
+package statistics;
+
+import java.awt.LinearGradientPaint;
+
+import Auxiliar.Interface;
+import Auxiliar.LinkedList;
+import Auxiliar.Node;
+import numerics.GammaFunction;
+import numerics.LinearRegression;
+import numerics.MeanCalc;
+import junit.framework.TestCase;
+
+
+public class TestTStudentDistribution  extends TestCase {
+
+
+	public void testProbabilityDensity1() {
+		assertEquals(0.21466, new TStudentDistribution(4).calcProbabilityDensity(1.0), 0.5E-5);
+		// Assumes the constructor receives the degrees of freedom as a parameter.
+	}
+	
+	public void testCalcPGivenX1() {
+		assertEquals(0.85006, new TStudentDistribution(9).calcPGivenX(1.1), 0.5E-5);
+	}
+
+	public void testCalcPGivenX2() {
+		assertEquals(0.86757, new TStudentDistribution(10).calcPGivenX(1.1812), 0.5E-5);
+	}
+
+	public void testCalcPGivenX3() {
+		assertEquals(0.99500, new TStudentDistribution(30).calcPGivenX(2.750), 0.5E-5);
+	}
+	
+	public void testCalcXGivenP1() {
+		assertEquals(0.55338, new TStudentDistribution(6).calcXGivenP(0.70), 0.5E-5);
+	}
+	
+	public void testCalcXGivenP2() {
+		assertEquals(1.75305, new TStudentDistribution(15).calcXGivenP(0.95), 0.5E-5);
+	}
+
+	public void testCalcXGivenP3() {
+		assertEquals(4.60409, new TStudentDistribution(4).calcXGivenP(0.995), 0.5E-5);
+	}
+	
+	//Tests for Node Class
+	public void testNode_Create() {
+		Node<Double> n1 = new Node<Double>(4.5, 1.0);
+		assertEquals(n1.getValue1(), 4.5);
+		assertEquals(n1.getValue2(), 1.0);
+	}
+	public void testNode_Change_Value(){
+		Node<Double> n1 = new Node<Double>(0.0, 0.0);
+		n1.setValue(10.9, 12.6);
+		assertEquals(n1.getValue1(), 10.9);
+		assertEquals(n1.getValue2(), 12.6);
+	}
+	public void testNode_Next(){
+		Node<Double> n1 = new Node<Double>(0.0, 0.0);
+		Node<Double> n2 = new Node<Double>(5.5, 2.5);
+		
+		n1.setNext_node(n2);
+		assertEquals(n1.getNext_node().getValue1(), 5.5);
+	}
+	
+	//Tests for LinkedList Class
+	public void testLinkedList_Constructor(){
+		LinkedList<Double> l1 = new LinkedList<Double>();
+		assertEquals(l1.getNodeValue1(), null);
+		assertEquals(l1.getNextNode(), null);
+	}
+	public void testLinkedList_AddNode(){
+		LinkedList<Double> l1 = new LinkedList<Double>();
+		l1.addNode(100001293123.1, 0.0);
+		assertEquals(l1.getNodeValue1(), 100001293123.1);
+	}
+	
+	
+	//Tests for Interface Class
+	public void testMeanCalc_calculate(){
+		LinkedList<Double> l1 = new LinkedList<Double>();
+		l1.addNode(0.0, 0.0); l1.addNode(1.0, 3.0); l1.addNode(2.0, 0.0);
+		l1.addNode(3.0, 2.0); l1.addNode(4.0, 1.0); l1.addNode(5.0, 0.0);
+		
+		MeanCalc mean = new MeanCalc(l1);
+		assertEquals(2.5,mean.calculate()[0]);
+		assertEquals(1.0,mean.calculate()[1]);
+	}
+	
+	// Tests for CorrelationCalc Class
+	public void testCorrelationCalc_calculate(){
+		LinkedList<Double> l1 = new LinkedList<Double>();
+		l1.addNode(0.0, 0.0); l1.addNode(1.0, 3.0); l1.addNode(2.0, 0.0);
+		l1.addNode(3.0, 2.0); l1.addNode(4.0, 1.0); l1.addNode(5.0, 0.0);
+		
+		LinearRegression r = new LinearRegression(l1);
+		assertEquals(-0.1690308509457033, r.CalcR());
+	}
+	
+	// Tests for LinearRegCalc Class
+	public void testLinearRegCalc_calculate(){
+		LinkedList<Double> l1 = new LinkedList<Double>();
+		l1.addNode(0.0, 0.0); l1.addNode(1.0, 3.0); l1.addNode(2.0, 0.0);
+		l1.addNode(3.0, 2.0); l1.addNode(4.0, 1.0); l1.addNode(5.0, 0.0);
+		
+		LinearRegression r = new LinearRegression(l1);
+		assertEquals(1.2857142857142856, r.CalcB0());
+		assertEquals(-0.11428571428571428, r.CalcB1());
+		assertEquals(-42.82857142857143, r.CalcYk((double) 386));
+	}
+	
+	// Tests for the example data provided
+	public void testCase1(){
+		Interface new_interface = new Interface(false);
+		LinkedList<Double> number_list = new LinkedList<Double>();
+		new_interface.loadFromFile("test/esof_test_1.test", number_list);
+		
+		LinearRegression r = new LinearRegression(number_list);
+		assertEquals(-22.55, r.CalcB0());
+		assertEquals(1.728, r.CalcB1());
+		assertEquals(644.4, r.CalcYk((double) 386));
+		
+		assertEquals(0.9545, r.CalcR());
+	}
+	
+	public void testCase2(){
+		Interface new_interface = new Interface(false);
+		LinkedList<Double> number_list = new LinkedList<Double>();
+		new_interface.loadFromFile("test/esof_test_2.test", number_list);
+		
+		LinearRegression r = new LinearRegression(number_list);
+		assertEquals(-4.0389, r.RoundValue(r.CalcB0(), 4);
+);
+		assertEquals(0.168126649881629, r.CalcB1());
+		assertEquals(60.86, r.CalcYk((double) 386));
+		
+		assertEquals(0.9333, r.CalcR());
+	}
+	
+	
+}

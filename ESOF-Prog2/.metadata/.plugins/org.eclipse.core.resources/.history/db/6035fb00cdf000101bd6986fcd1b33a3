@@ -1,0 +1,41 @@
+package statistics;
+
+import numerics.GammaFunction;
+import junit.framework.TestCase;
+
+
+public class TestTStudentDistribution  extends TestCase {
+	
+	public void testGammaFunction() {
+		assertEquals(2.000000000, new GammaFunction().calcGammaFunction(0.5), 0.5E-5);
+		
+	}
+	public void testProbabilityDensity1() {
+		assertEquals(0.21466, new TStudentDistribution(4).calcProbabilityDensity(1.0), 0.5E-5);
+		// Assumes the constructor receives the degrees of freedom as a parameter.
+	}
+	
+	public void testCalcPGivenX1() {
+		assertEquals(0.85006, new TStudentDistribution(9).calcPGivenX(1.1), 0.5E-5);
+	}
+
+	public void testCalcPGivenX2() {
+		assertEquals(0.86757, new TStudentDistribution(10).calcPGivenX(1.1812), 0.5E-5);
+	}
+
+	public void testCalcPGivenX3() {
+		assertEquals(0.99500, new TStudentDistribution(30).calcPGivenX(2.750), 0.5E-5);
+	}
+	
+	public void testCalcXGivenP1() {
+		assertEquals(0.55338, new TStudentDistribution(6).calcXGivenP(0.70), 0.5E-5);
+	}
+	
+	public void testCalcXGivenP2() {
+		assertEquals(1.75305, new TStudentDistribution(15).calcXGivenP(0.95), 0.5E-5);
+	}
+
+	public void testCalcXGivenP3() {
+		assertEquals(4.60409, new TStudentDistribution(4).calcXGivenP(0.995), 0.5E-5);
+	}	
+}

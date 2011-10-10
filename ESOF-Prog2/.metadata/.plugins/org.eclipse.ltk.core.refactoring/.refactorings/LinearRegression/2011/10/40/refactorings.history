@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;LinearRegression.java&apos; to &apos;LinearRegression/src/numerics&apos;&#x0D;&#x0A;- Original project: &apos;LinearRegression&apos;&#x0D;&#x0A;- Destination element: &apos;LinearRegression/src/numerics&apos;&#x0D;&#x0A;- Original element: &apos;LinearRegression.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;numerics" element1="/src&lt;{LinearRegression.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1317992696720" units="1" version="1.0"/>
+</session>

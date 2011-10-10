@@ -1,0 +1,42 @@
+package statistics;
+
+import numerics.Function;
+import numerics.GammaFunction;
+
+public class TStudentDistribution {
+
+	private int x;
+	double gf3, gf4;
+	public TStudentDistribution(int i) {
+		this.x = i;
+		// TODO Auto-generated constructor stub
+	}
+
+	public double calcProbabilityDensity(double d) {
+		
+		GammaFunction gf1 = null, gf2 = null;
+		gf3 = gf1.calcGammaFunction((d+1)/2);
+		gf4 = gf2.calcGammaFunction(d/2);
+		
+		return (gf3/((Math.pow(d*Math.PI, 1/2)*gf4))*Math.pow(1+(x*x)/d, -(d+1)/2));	
+	}
+
+	public double calcPGivenX(double d) {
+		// TODO Auto-generated method stub
+		/*if (d==0)
+			return 0.5;
+		else
+			if (d>0.0)
+				return 0.5 + calcIntegral(ProbabilityDensity...);
+			else
+				return 0.5 - calcIntegral(ProbabilityDensity...);*/
+		return (Double) null;
+	}
+
+	public double calcXGivenP(double d) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+}
