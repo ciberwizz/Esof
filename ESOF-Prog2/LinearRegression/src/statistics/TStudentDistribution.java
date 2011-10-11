@@ -2,17 +2,19 @@ package statistics;
 
 import numerics.Function;
 import numerics.GammaFunction;
+import numerics.NewtonRapsonMethod;
 import numerics.SimpsonMethod;
 
 public class TStudentDistribution implements Function {
 
 	private int d;
-	double gf3, gf4;
+	private double gf3, gf4;
+	public boolean df;
 	public TStudentDistribution(int i) {
 		this.d = i;
 		gf3 = new GammaFunction().calcGammaFunction((this.d+1.0)/2.0);
 		gf4 = new GammaFunction().calcGammaFunction(this.d/2.0);
-		
+		df = true;
 	}
 
 	public double calcProbabilityDensity(double x) {
@@ -34,14 +36,18 @@ public class TStudentDistribution implements Function {
 				return 0.5 - SimpsonMethod.calcIntegral(this,0.0 , x, 0.5E-5);
 	}
 
-	public double calcXGivenP(double x) {
-		// TODO Auto-generated method stub
-		return 0;
+	public double calcXGivenP(double p) {
+		
+		TStudentDistribution t = new TStudentDistribution(d);
+		t.df = false;
+		return new NewtonRapsonMethod().findArgument(t, this, p, 0.0, 0.5E-2);
 	}
 
 	@Override
 	public double eval(double x) {
-		// TODO Auto-generated method stub
-		return calcProbabilityDensity(x);
+		if( df )
+			return calcProbabilityDensity(x);
+		else
+			return calcPGivenX(x);
 	}
 }
