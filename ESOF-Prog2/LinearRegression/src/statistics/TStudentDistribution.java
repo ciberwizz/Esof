@@ -105,7 +105,7 @@ public class TStudentDistribution implements Function {
 		number_list.reset();
 
 		
-		return Math.sqrt((1/(double)number_list.size()-2) * somatorio);
+		return Math.sqrt((1.0/((double)number_list.size()-2.0)) * somatorio);
 		
 	}
 
