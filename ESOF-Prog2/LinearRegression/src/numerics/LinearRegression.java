@@ -80,7 +80,5 @@ public class LinearRegression {
 		}
 		return (double)Math.round(value * valueOfMul) / valueOfMul;
 	}
-	
-	
-	
+
 }

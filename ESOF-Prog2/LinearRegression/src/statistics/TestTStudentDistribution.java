@@ -122,7 +122,15 @@ public class TestTStudentDistribution  extends TestCase {
 		
 		assertEquals(0.9545, r.RoundValue(r.CalcR(), 4));
 		
-		//TODO: tailArea, UPI e LPI
+		
+		TStudentDistribution ts = new TStudentDistribution(number_list.size()-1);
+		//upi
+		assertEquals(874.4, ts.calcUPI(386.0,.7,number_list));
+		
+		//lpi
+		assertEquals(414.4, ts.calcLPI(386.0,.7,number_list));
+		
+		//TODO: tailArea
 	}
 	
 	public void testCase2(){
